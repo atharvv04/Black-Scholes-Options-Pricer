@@ -52,11 +52,11 @@ python launch_app.py
 
 2. **Deploy to Streamlit Cloud**:
    - Go to [Streamlit Cloud](https://share.streamlit.io/)
-   - Connect your GitHub repository
+   - Connect the GitHub repository
    - Set the main file to: `streamlit_app.py`
-   - Deploy!
+   - Deploy
 
-3. **Your app will be live at**: `https://your-app-name.streamlit.app`
+3. **The app will be live at**: `https://your-app-name.streamlit.app`
 
 ## Usage
 
@@ -113,8 +113,8 @@ black-scholes-pricer/
 - Moneyness and option status analysis
 
 ### Greeks Calculator
-- Delta: Price sensitivity to underlying asset price
-- Gamma: Delta sensitivity to underlying asset price
+- Delta: Price sensitivity to the underlying asset price
+- Gamma: Delta sensitivity to the underlying asset price
 - Theta: Price sensitivity to time decay
 - Vega: Price sensitivity to volatility
 - Rho: Price sensitivity to interest rate
@@ -199,34 +199,3 @@ pytest tests/test_black_scholes.py
 # Run with coverage
 pytest --cov=src tests/
 ```
-
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Acknowledgments
-
-- Fischer Black and Myron Scholes for the original model
-- The financial mathematics community
-- Contributors and users of this project
-
-## Support
-
-For support, please open an issue on GitHub or contact the maintainers.
-
-## Roadmap
-
-- [ ] American options pricing
-- [ ] Exotic options support
-- [ ] Portfolio optimization
-- [ ] Backtesting framework
-- [ ] Machine learning integration
-- [ ] Mobile app version 
